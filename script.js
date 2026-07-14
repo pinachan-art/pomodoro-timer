@@ -1,11 +1,10 @@
 
-// 💾 SALVA STATISTICHE
+// salva statistiche
 function salvaDati() {
   localStorage.setItem("sessioni", sessioni);
   localStorage.setItem("totMin", totMin);
 }
 
-// 📂 CARICA STATISTICHE
 function caricaDati() {
   var s = localStorage.getItem("sessioni");
   var m = localStorage.getItem("totMin");
