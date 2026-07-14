@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pomodoro Timer</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lavoro">
+
+<div class="box">
+
+<h1 class="title">🍅POMODORO TIMER🍅</h1>
+<p id="stato">LAVORO</p>
+
+<!--TIMER -->
+<div class="timer-box">
+  <div class="card">
+    <span id="minutiDisplay">00</span>
+    <p>MINUTI</p>
+  </div>
+
+  <div class="card">
+    <span id="secondiDisplay">00</span>
+    <p>SECONDI</p>
+  </div>
+</div>
+
+<!-- CONTROLLI -->
+<div class="controls">
+  <button id="bAvvia" onclick="avviaTimer()">▶</button>
+  <button id="bPausa" onclick="pausaTimer()" disabled>⏸</button>
+  <button onclick="resetTimer()">⟳</button>
+</div>
+
+<!-- STATISTICHE -->
+<div class="stats">
+  <div>
+    <p>SESSIONI</p>
+    <span id="sessioni">0</span>
+  </div>
+  <div>
+    <p>MINUTI</p>
+    <span id="minuti">0</span>
+  </div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
