@@ -51,4 +51,5 @@ Il reset:
 
 ```js
 var tLavoro = 1 * 60; // durata lavoro (in secondi)
-var tPausa = 1 * 60;  // durata pausa (in secondi)
+var tPausaLunga = 2 * 60; //durata pausa lunga(in secondi)
+var tPausaBreve = 1 * 60; //durata pausa breve (in secondi)
