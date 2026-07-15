@@ -12,7 +12,7 @@ Il timer è diviso in due modalità:
 -  LAVORO
 -  PAUSA
 
-### ▶ Avvio
+### Avvio
 Quando si clicca il pulsante `Avvia`:
 - parte un timer con `setInterval`
 - ogni secondo il tempo diminuisce (`tempoRimasto--`)
@@ -34,13 +34,13 @@ Quando il tempo arriva a **0**:
   - cambia lo sfondo
 
 
-### ⏸ Pausa
+### Pausa
 Il pulsante pausa:
 - ferma il timer con `clearInterval`
 - mantiene il tempo corrente
 
 
-### ⟳ Reset
+### Reset
 Il reset:
 - ferma il timer
 - riporta tutto a zero
